@@ -1,0 +1,5 @@
+
+.idea/*
+logs/ssm.log
+target/*
+webssm.iml
