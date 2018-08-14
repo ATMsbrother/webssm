@@ -14,7 +14,7 @@
 
     <!--第一种方式：加载一个properties文件-->
     <bean id="propertyPlaceholderConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-        <property name="location" value="jdbc.properties"/>
+        <property name="location" value="classpath:/jdbc.properties"/>
     </bean>
 
     <!--第二种方式：加载多个properties文件-->
