@@ -6,6 +6,7 @@ import ssm.model.UserInfo;
 import ssm.service.UserService;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @FileName
@@ -21,5 +22,9 @@ public class UserServiceImpl implements UserService {
 
     public UserInfo selectUser(int userId) {
         return this.userInfoMapper.selectByPrimaryKey(userId);
+    }
+
+    public List<UserInfo> getAllUsers() {
+        return null;
     }
 }

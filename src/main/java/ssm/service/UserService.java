@@ -2,6 +2,8 @@ package ssm.service;
 
 import ssm.model.UserInfo;
 
+import java.util.List;
+
 /**
  * @FileName
  * @Author 陈修斌
@@ -11,4 +13,8 @@ import ssm.model.UserInfo;
 public interface UserService {
 
     public UserInfo selectUser(int userId);
+
+    public List<UserInfo> getAllUsers();
+
+
 }
